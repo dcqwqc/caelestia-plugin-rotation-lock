@@ -1,0 +1,14 @@
+{
+  "name": "RotationLock",
+  "version": "0.1.0",
+  "author": "dcqwqc",
+  "icon": "screen_rotation",
+  "description": "Rotation lock for a convertible, as owned by the yoga-tablet daemon. Hides itself where the daemon is not running.",
+  "entryPoints": [
+    {
+      "type": "quick-toggle",
+      "source": "toggles/RotationLockToggle.qml",
+      "properties": { "name": "rotationLock" }
+    }
+  ]
+}
