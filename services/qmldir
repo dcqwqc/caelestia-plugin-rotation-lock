@@ -1,2 +1,0 @@
-module RotationLock.Services
-singleton RotationLock 1.0 RotationLock.qml
